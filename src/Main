@@ -1,0 +1,151 @@
+import br.com.alura.screenmatch.modelos.Filme;
+
+public class Main {
+    public static void main(String[] args) {
+
+
+        Filme meuFilme = new Filme();
+
+
+        meuFilme.setNome("O poderoso chefão");
+        meuFilme.setAnoDeLancamento(1970);
+        meuFilme.setDuracaoEmMinutos(180);
+
+        meuFilme.getexibeFichaTecnica();
+        meuFilme.avalia(8);
+        meuFilme.avalia(6);
+        meuFilme.avalia(4);
+
+        System.out.println("Total de avaliações: " +meuFilme.getTotalDeAvaliacoes());
+        System.out.println(meuFilme.p
+        getPegaMedia());
+
+        */
+        Classe Pessoa
+
+        Pessoa pessoa = new Pessoa();
+
+        pessoa.cumprimento();
+         */
+        /*
+        Calculadora calculadora = new Calculadora();
+
+        Calculadora
+        int resultado = calculadora.dobro(5);
+
+        System.out.println(resultado);
+        */
+        /*
+        Classe Musica
+
+        Musica musica = new Musica();
+        musica.titulo= "Único";
+        musica.artista = "Fernandinho";
+        musica.anoLancamento = 2018;
+
+        musica.exibeFichaTecnica();
+        musica.avalia(5);
+        musica.avalia(3);
+        musica.avalia(5);
+
+        double mediaAvaliacoes = musica.pegaMedia();
+        System.out.println("Média das avaliações: "+ mediaAvaliacoes);
+        */
+        /*
+        Classe Carro
+
+        Carro carro = new Carro();
+        carro.modelo = "Gol";
+        carro.cor = "Vermelho";
+        carro.ano = 2020;
+
+        carro.exibeFichaTecnica();
+
+        System.out.println("Idade do carro:" + carro.idadeCarro()+ " anos");
+        */
+        /*
+        Classe Aluno
+        Aluno aluno = new Aluno();
+        aluno.nome = "Pedro";
+        aluno.idade = 20;
+        
+        aluno.descricaoAluno();
+
+         */
+    }
+}
+import br.com.alura.screenmatch.modelos.Filme;
+
+public class Principal {
+    public static void main(String[] args) {
+
+
+        Filme meuFilme = new Filme();
+
+
+        meuFilme.nome = "O poderoso chefão";
+        meuFilme.anoDeLancamento = 1970;
+        meuFilme.duracaoEmMinutos = 180;
+
+        meuFilme.exibeFichaTecnica();
+        meuFilme.avalia(8);
+        meuFilme.avalia(6);
+        meuFilme.avalia(4);
+
+        System.out.println("Total de avaliações: " +meuFilme.getTotalDeAvaliacoes());
+        System.out.println(meuFilme.pegaMedia());
+
+        /*
+        Classe Pessoa
+
+        Pessoa pessoa = new Pessoa();
+
+        pessoa.cumprimento();
+         */
+        /*
+        Calculadora calculadora = new Calculadora();
+
+        Calculadora
+        int resultado = calculadora.dobro(5);
+
+        System.out.println(resultado);
+        */
+        /*
+        Classe Musica
+
+        Musica musica = new Musica();
+        musica.titulo= "Único";
+        musica.artista = "Fernandinho";
+        musica.anoLancamento = 2018;
+
+        musica.exibeFichaTecnica();
+        musica.avalia(5);
+        musica.avalia(3);
+        musica.avalia(5);
+
+        double mediaAvaliacoes = musica.pegaMedia();
+        System.out.println("Média das avaliações: "+ mediaAvaliacoes);
+        */
+        /*
+        Classe Carro
+
+        Carro carro = new Carro();
+        carro.modelo = "Gol";
+        carro.cor = "Vermelho";
+        carro.ano = 2020;
+
+        carro.exibeFichaTecnica();
+
+        System.out.println("Idade do carro:" + carro.idadeCarro()+ " anos");
+        */
+        /*
+        Classe Aluno
+        Aluno aluno = new Aluno();
+        aluno.nome = "Pedro";
+        aluno.idade = 20;
+
+        aluno.descricaoAluno();
+
+         */
+    }
+}
